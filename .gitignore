@@ -1,0 +1,191 @@
+# ============================================================================
+# Supreme System V5 - Comprehensive .gitignore
+# Updated: 2025-12-07 00:08 AM
+# ============================================================================
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Virtual Environments ===
+venv/
+ENV/
+env/
+.venv/
+
+# === Testing & Coverage ===
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.nox/
+nosetests.xml
+coverage_baseline.txt
+
+# === Type Checking ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# === Linting ===
+.ruff_cache/
+.pylint.d/
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# === Logs ===
+logs/*.log
+*.log
+logs/baseline/
+logs/validation_reports/
+logs/profiling/
+
+# === Databases ===
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/paper_trading/*.db
+data/trading.db
+data/paper_trading_oms.db
+
+# === Backups ===
+backups/pre_fix_*/
+backups/*.bak
+*.backup
+
+# === Metrics & Reports ===
+metrics/
+optimized_baseline.json/
+*.json.bak
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === Environment Variables ===
+.env
+.env.local
+.env.*.local
+.envrc
+
+# === OS Files ===
+Thumbs.db
+desktop.ini
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# === Temporary Files ===
+*.tmp
+*.temp
+temp/
+tmp/
+*.swp
+*.swo
+
+# === Archives (keep structure, ignore content) ===
+scripts/archive/*.py
+tests/unit/execution/_disabled/*/*.py
+
+# === Profiling ===
+*.prof
+*.lprof
+profile_stats.txt
+
+# === Documentation Build ===
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# === Package Manager ===
+poetry.lock
+Pipfile.lock
+pdm.lock
+
+# === CI/CD ===
+.github/workflows/*.log
+
+# === Project Specific ===
+# Keep structure, ignore generated content
+htmlcov/
+.coverage
+coverage_*.txt
+
+# === Trading System Data Files (Added: 2024-12-10)
+# Reason: Large files, regenerable, prevent repo bloat
+
+# Demo/Test Data (sample market data)
+data/demo/*.csv.gz
+data/demo/*.parquet
+data/demo/*.feather
+!data/demo/README.md
+!data/demo/sample_small.csv
+
+# Raw Market Data (re-downloadable)
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.json
+data/raw/*.feather
+!data/raw/README.md
+
+# Processed Data (pipeline outputs)
+data/processed/*.parquet
+data/processed/*.json
+data/processed/*.feather
+data/processed/*.pkl
+!data/processed/README.md
+
+# Paper Trading Outputs (runtime generated)
+data/paper_trading/*.json
+data/paper_trading/*.csv
+data/paper_trading/*.db
+
+# Backtest Results (simulation outputs)
+data/backtest/*.parquet
+data/backtest/*.json
+
+# Model Artifacts (regenerable checkpoints)
+models/checkpoints/*.ckpt
+models/checkpoints/*.pth
+models/checkpoints/*.bin
+models/checkpoints/*.safetensors
+!models/checkpoints/README.md
+
+# archive/ is intentionally tracked for audit/history

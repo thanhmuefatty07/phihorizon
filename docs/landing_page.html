@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme System V5 - Advanced Backtesting Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #ffffff, #a8d8ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #a8d8ea;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .feature-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .feature-desc {
+            font-size: 14px;
+            color: #8892b0;
+            line-height: 1.6;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 60px 0;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 20px;
+            margin: 40px 0;
+        }
+
+        .cta-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .cta-subtitle {
+            color: #8892b0;
+            margin-bottom: 30px;
+        }
+
+        .email-form {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .email-input {
+            padding: 15px 25px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #ffffff;
+            font-size: 16px;
+            width: 300px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .email-input:focus {
+            border-color: #e94560;
+        }
+
+        .submit-btn {
+            padding: 15px 40px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            border: none;
+            border-radius: 10px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .submit-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.4);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin: 60px 0;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 42px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #8892b0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .pricing {
+            background: rgba(233, 69, 96, 0.1);
+            border: 2px solid rgba(233, 69, 96, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .price-tag {
+            font-size: 14px;
+            color: #e94560;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .price-note {
+            color: #8892b0;
+            margin-bottom: 20px;
+        }
+
+        .price-features {
+            list-style: none;
+            margin: 30px 0;
+            text-align: left;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .price-features li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .price-features li:before {
+            content: "✓ ";
+            color: #4ade80;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #8892b0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <span class="badge">🚀 Founder's Early Access</span>
+            <h1>Supreme System V5</h1>
+            <p class="subtitle">
+                Advanced backtesting platform with <strong>walk-forward optimization</strong>,
+                <strong>consciousness metrics</strong>, and <strong>Bayesian parameter tuning</strong>.
+                Built for serious algo traders who want to validate strategies before going live.
+            </p>
+        </section>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value">811+</div>
+                <div class="stat-label">Lines Walk-Forward Code</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">5</div>
+                <div class="stat-label">Key Metrics</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">95%</div>
+                <div class="stat-label">Overfitting Detection</div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3 class="feature-title">Walk-Forward Optimization</h3>
+                <p class="feature-desc">Bayesian optimization with rolling windows. Prevent overfitting and find robust parameters that work in live trading.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3 class="feature-title">Consciousness Metrics</h3>
+                <p class="feature-desc">Unique IIT-inspired Phi calculation for market state awareness. A novel approach to strategy selection.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📈</div>
+                <h3 class="feature-title">Statistical Validation</h3>
+                <p class="feature-desc">T-tests, significance testing, Sharpe/Sortino/Calmar ratios. Know if your edge is real or just luck.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">Production Ready</h3>
+                <p class="feature-desc">48KB production backtester with Monte Carlo simulation, multi-strategy comparison, and risk management.</p>
+            </div>
+        </div>
+
+        <div class="pricing">
+            <div class="price-tag">Founder's Price (Limited)</div>
+            <div class="price">$2,500</div>
+            <div class="price-note">Regular price $5,000 after launch</div>
+            <ul class="price-features">
+                <li>Full source code access (Python)</li>
+                <li>Walk-forward optimizer (811 lines)</li>
+                <li>Production backtester (1200+ lines)</li>
+                <li>Consciousness metrics engine</li>
+                <li>TMML pipeline integration</li>
+                <li>6 months support & updates</li>
+                <li>Commercial license included</li>
+            </ul>
+        </div>
+
+        <section class="cta-section">
+            <h2 class="cta-title">Get Early Access</h2>
+            <p class="cta-subtitle">Join the waitlist for exclusive founder pricing</p>
+            <form class="email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="email" name="email" class="email-input" placeholder="Enter your email" required>
+                <button type="submit" class="submit-btn">Join Waitlist</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Supreme System V5 © 2024-2025. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 12px;">
+                ⚠️ For backtesting and research purposes. Not financial advice.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
