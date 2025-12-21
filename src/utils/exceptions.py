@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Supreme System V5 - Custom Exceptions
+PhiHorizon - Custom Exceptions
 
 Comprehensive exception hierarchy with advanced error handling,
 decorators, and context management for production-grade reliability.
@@ -26,7 +26,7 @@ except ImportError:
 
 class SupremeSystemError(Exception):
     """
-    Base exception for Supreme System V5 with advanced context and logging.
+    Base exception for PhiHorizon with advanced context and logging.
 
     Provides structured error information, automatic logging, and recovery suggestions
     for production-grade error handling.
@@ -292,7 +292,7 @@ def handle_exception(exc: Exception, logger: Optional[Any] = None, re_raise: boo
     """
     if logger:
         if isinstance(exc, SupremeSystemError):
-            logger.error(f"Supreme System Error: {exc}")
+            logger.error(f"PhiHorizon Error: {exc}")
         else:
             logger.error(f"Unexpected error: {exc}", exc_info=True)
 
@@ -796,3 +796,4 @@ __all__ = [
     "get_error_recovery_manager",
     "resilient_operation",
 ]
+

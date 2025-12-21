@@ -34,5 +34,6 @@ When the Agent encounters a Trigger:
     -   **Notify** the user: "Hybrid Dispatch: Please run these tasks on Kaggle/Colab now."
 
 ## 4. Implementation Details
--   **Kaggle:** Use `colab/supreme_v5_complete_training.ipynb` as the execution engine.
+-   **Kaggle:** Use `colab/phihorizon_complete_training.ipynb` as the execution engine.
 -   **Local:** Keep it light (Unit tests, Syntax checks, Logic verification).
+

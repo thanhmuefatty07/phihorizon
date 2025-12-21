@@ -1,5 +1,5 @@
 """
-Backtesting Risk Manager for Supreme System V5.
+Backtesting Risk Manager for PhiHorizon.
 
 Simplified risk management for backtesting only.
 No real-time cooldown, no trade frequency limits.
@@ -128,3 +128,4 @@ class BacktestRiskManager:
         self.current_equity = 0.0
         self.current_exposure = 0.0
         logger.info("BacktestRiskManager reset")
+

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Supreme System V5 - Helper Utilities
+PhiHorizon - Helper Utilities
 
 Common helper functions used across the system.
 """
@@ -355,3 +355,4 @@ def round_to_significant_digits(value: float, digits: int = 4) -> float:
     import math
 
     return round(value, digits - int(math.floor(math.log10(abs(value)))) - 1)
+

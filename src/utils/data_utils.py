@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Supreme System V5 - Data Utilities
+PhiHorizon - Data Utilities
 
 Data manipulation, transformation, and analysis utilities.
 """
@@ -562,3 +562,4 @@ def calculate_alpha(asset_returns: pd.Series, market_returns: pd.Series, risk_fr
     alpha = asset_return_annual - (risk_free_rate + beta * (market_return_annual - risk_free_rate))
 
     return alpha
+

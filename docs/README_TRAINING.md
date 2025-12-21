@@ -1,4 +1,4 @@
-# Supreme System V5 - ML Training Guide (Hybrid Protocol)
+# PhiHorizon - ML Training Guide (Hybrid Protocol)
 
 ## ☁️ Hybrid Cloud Execution Protocol
 
@@ -21,7 +21,7 @@ pytest tests/ -v
 Use for: Full training, Walk-Forward Optimization (>1yr), Hyperparameter tuning.
 
 **Google Colab / Kaggle:**
-1.  **Notebook:** `colab/supreme_v5_complete_training.ipynb`
+1.  **Notebook:** `colab/phihorizon_complete_training.ipynb`
 2.  **Upload:** Upload this notebook to your preferred cloud platform.
 3.  **Run:** Execute all cells. This notebook is self-contained.
 4.  **Download:** Get `benchmark_report.json` and model files.
@@ -35,3 +35,4 @@ Use for: Full training, Walk-Forward Optimization (>1yr), Hyperparameter tuning.
 
 **Last Updated:** Dec 22, 2025
 **Protocol:** Active
+

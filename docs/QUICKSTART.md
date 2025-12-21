@@ -1,5 +1,5 @@
 # Quick Start Guide
-Get Supreme System V5 running in 15 minutes
+Get PhiHorizon running in 15 minutes
 
 ## ⚡ Prerequisites
 
@@ -164,3 +164,4 @@ pip install -r requirements.txt --force-reinstall
 **Tip**: Start with paper trading and gradually increase to live trading only after thorough testing.
 
 **Last Updated**: November 16, 2025
+

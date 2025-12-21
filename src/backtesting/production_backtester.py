@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Supreme System V5 - Production Backtesting Engine
+PhiHorizon - Production Backtesting Engine
 
 Enterprise-grade backtesting with walk-forward analysis, monte carlo simulation,
 and comprehensive performance metrics for production deployment readiness.
@@ -1327,3 +1327,4 @@ class ProductionBacktester:
             optimized_params[param] = (min_val + max_val) / 2
 
         return optimized_params
+

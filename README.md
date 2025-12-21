@@ -1,4 +1,4 @@
-﻿# 🌅 PhiHorizon - Consciousness-Aware AI Trading Framework
+# ?? PhiHorizon - Consciousness-Aware AI Trading Framework
 
 > **The Future of Trading Intelligence: Where Machine Learning Meets Consciousness Theory**
 
@@ -8,22 +8,22 @@
 
 ---
 
-## 🧠 What Makes PhiHorizon Unique?
+## ?? What Makes PhiHorizon Unique?
 
 PhiHorizon is the **world's first** trading framework that integrates:
 
 | Technology | Description |
 |------------|-------------|
-| **Integrated Information Theory (IIT)** | Phi (Φ) metrics measure market "consciousness" |
+| **Integrated Information Theory (IIT)** | Phi (F) metrics measure market "consciousness" |
 | **XGBoost ML** | Gradient boosting for direction prediction |
 | **Walk-Forward Optimization** | Robust backtesting with 696+ validation windows |
 | **Consciousness Filter** | Trade only when market shows integrated patterns |
 
-> 🔬 **Research-backed:** All claims validated with academic benchmarks. No overclaiming.
+> ?? **Research-backed:** All claims validated with academic benchmarks. No overclaiming.
 
 ---
 
-## 📊 Honest Performance Metrics
+## ?? Honest Performance Metrics
 
 | Metric | Value | Academic Benchmark |
 |--------|-------|-------------------|
@@ -32,33 +32,33 @@ PhiHorizon is the **world's first** trading framework that integrates:
 | WF Windows | 696 | High coverage |
 | Phi Range | 0.3-0.7 | Market state indicator |
 
-> ⚠️ **Disclaimer:** Past performance ≠ future results. This is a research framework, not financial advice.
+> ?? **Disclaimer:** Past performance ? future results. This is a research framework, not financial advice.
 
 ---
 
-## 🚀 Key Features
+## ?? Key Features
 
 ```
 phihorizon/
-├── src/
-│   ├── backtesting/       # Walk-Forward Optimization Engine
-│   ├── consciousness/     # Phi (Φ) Metrics Calculator
-│   ├── models/            # XGBoost ML Pipeline
-│   ├── risk/              # Risk Management
-│   └── strategy/          # Trading Strategies
-├── colab/                 # Kaggle/Colab Training Notebooks
-├── tests/                 # 46+ Test Cases
-└── docs/                  # Documentation
++-- src/
+�   +-- backtesting/       # Walk-Forward Optimization Engine
+�   +-- consciousness/     # Phi (F) Metrics Calculator
+�   +-- models/            # XGBoost ML Pipeline
+�   +-- risk/              # Risk Management
+�   +-- strategy/          # Trading Strategies
++-- colab/                 # Kaggle/Colab Training Notebooks
++-- tests/                 # 46+ Test Cases
++-- docs/                  # Documentation
 ```
 
 ---
 
-## 💡 The Phi Advantage
+## ?? The Phi Advantage
 
-**Phi (Φ)** measures how "integrated" market information is:
+**Phi (F)** measures how "integrated" market information is:
 
-- **High Φ (>0.5)**: Market shows coherent patterns → Good for trading
-- **Low Φ (<0.3)**: Market is chaotic/random → Avoid trading
+- **High F (>0.5)**: Market shows coherent patterns ? Good for trading
+- **Low F (<0.3)**: Market is chaotic/random ? Avoid trading
 
 ```python
 from src.consciousness import PhiCalculator
@@ -73,7 +73,7 @@ if phi > 0.5:
 
 ---
 
-## 🛠️ Quick Start
+## ??? Quick Start
 
 ```bash
 # Clone
@@ -87,12 +87,12 @@ pip install -r requirements.txt
 pytest tests/ -v
 
 # Train on Kaggle
-# Upload colab/supreme_v5_remediation.ipynb
+# Upload colab/phihorizon_remediation.ipynb
 ```
 
 ---
 
-## 📈 Technology Stack
+## ?? Technology Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -104,7 +104,7 @@ pytest tests/ -v
 
 ---
 
-## 🎯 Roadmap
+## ?? Roadmap
 
 - [x] Walk-Forward Optimization
 - [x] Phi Consciousness Metrics
@@ -115,19 +115,20 @@ pytest tests/ -v
 
 ---
 
-## 📜 License
+## ?? License
 
 MIT License - See [LICENSE](LICENSE)
 
 ---
 
-## 🌟 Why "PhiHorizon"?
+## ?? Why "PhiHorizon"?
 
-- **Phi (Φ)**: The consciousness metric from Integrated Information Theory
+- **Phi (F)**: The consciousness metric from Integrated Information Theory
 - **Horizon**: The future we're building toward
 
 > *"Where consciousness theory meets quantitative finance."*
 
 ---
 
-**Built with 🧠 by the PhiHorizon Team**
+**Built with ?? by the PhiHorizon Team**
+

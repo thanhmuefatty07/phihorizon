@@ -1,4 +1,4 @@
-# Supreme System V5 - Buyer Disclosure & Terms
+# PhiHorizon - Buyer Disclosure & Terms
 
 **Effective Date:** December 16, 2025
 **Version:** 1.0
@@ -10,7 +10,7 @@
 
 ### **Zero Overclaiming Guarantee**
 
-Supreme System V5 has undergone rigorous audit verification to ensure complete transparency:
+PhiHorizon has undergone rigorous audit verification to ensure complete transparency:
 
 **Audit Results (December 16, 2025):**
 - **Verification Status:** ✅ **100% of claims verified**
@@ -30,7 +30,7 @@ Supreme System V5 has undergone rigorous audit verification to ensure complete t
 
 ## ⚖️ **LEGAL DISCLAIMER**
 
-This document discloses all material facts about Supreme System V5. By purchasing or using this software, you acknowledge that you have read, understood, and agree to all terms herein.
+This document discloses all material facts about PhiHorizon. By purchasing or using this software, you acknowledge that you have read, understood, and agree to all terms herein.
 
 **NOT FINANCIAL ADVICE:** This software is for educational and research purposes only. Trading cryptocurrencies involves substantial risk of loss and is not suitable for all investors.
 
@@ -224,7 +224,7 @@ This document discloses all material facts about Supreme System V5. By purchasin
 
 ## 📋 **ACCEPTANCE & ACKNOWLEDGMENT**
 
-By purchasing Supreme System V5, you acknowledge and agree to:
+By purchasing PhiHorizon, you acknowledge and agree to:
 
 1. **Understanding of Limitations:** You have read and understand all disclosed limitations
 2. **Technical Competence:** You have the technical skills to modify and deploy the system
@@ -255,3 +255,4 @@ By purchasing Supreme System V5, you acknowledge and agree to:
 **This disclosure supersedes all prior communications and constitutes the entire agreement between parties.**
 
 **Last Updated:** December 16, 2025
+

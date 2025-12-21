@@ -1,5 +1,5 @@
 """
-Supreme System V5 - AI Trading Research Framework
+PhiHorizon - AI Trading Research Framework
 
 A production-ready framework for backtesting and ML-based trading research.
 """
@@ -18,3 +18,4 @@ __all__ = [
     "PhiCalculator",
     "IITCore",
 ]
+

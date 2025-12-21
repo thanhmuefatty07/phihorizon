@@ -1,5 +1,5 @@
 """
-Test fixtures and configuration for Supreme System V5.
+Test fixtures and configuration for PhiHorizon.
 """
 
 import pytest
@@ -31,3 +31,4 @@ def sample_returns():
     """Generate sample returns for testing."""
     np.random.seed(42)
     return pd.Series(np.random.randn(252) * 0.02)
+

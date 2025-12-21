@@ -2,14 +2,14 @@
 
 """
 
-Supreme System V5 - Fast Math Module (V2 - Production Grade)
+PhiHorizon - Fast Math Module (V2 - Production Grade)
 
 Optimized Kelly Criterion calculation with Numba JIT.
 
 Performance Target: < 1 microsecond per calculation
 Safety: Comprehensive input validation and error handling
 
-Author: Supreme System V5 Team
+Author: PhiHorizon Team
 Date: 2025-11-24
 Version: 2.0 (Fixed)
 """
@@ -356,3 +356,4 @@ if __name__ == "__main__":
     assert result == 0.0, "Negative Kelly not rejected"
 
     print("\n✅ All validation tests passed!")
+

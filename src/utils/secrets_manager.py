@@ -1,5 +1,5 @@
 """
-Supreme System V5 - Advanced Secrets Management
+PhiHorizon - Advanced Secrets Management
 
 Enterprise-grade secrets management with multiple backends:
 - .env files (python-dotenv)
@@ -607,3 +607,4 @@ if __name__ == "__main__":
     print(f"- .env files: {DOTENV_AVAILABLE}")
     print(f"- Keyring (Windows Credential Manager): {KEYRING_AVAILABLE}")
     print(f"- Encrypted storage: True")
+

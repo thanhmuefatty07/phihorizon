@@ -1,8 +1,8 @@
-# Supreme System V5 - Product Sheet
+# PhiHorizon - Product Sheet
 
 ## 🎯 **Executive Summary**
 
-**Supreme System V5** is a **functional algorithmic trading prototype** with **real exchange integration**, designed for developers and technical traders who want a **solid foundation** for building production trading systems.
+**PhiHorizon** is a **functional algorithmic trading prototype** with **real exchange integration**, designed for developers and technical traders who want a **solid foundation** for building production trading systems.
 
 **Value Proposition:** Get a working, documented codebase with live market data integration - not a fake demo with synthetic data.
 
@@ -156,3 +156,4 @@ Complete enterprise-grade trading platform
 **Last Updated:** December 16, 2025
 **Version:** 1.0
 **Audit Status:** ✅ Zero Overclaiming Verified
+

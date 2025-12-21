@@ -1,6 +1,6 @@
 # 🏢 ENTERPRISE EXCLUSIVE LICENSE - BUYOUT PACKAGE
 
-## Supreme System V5 - AI Trading Research Framework
+## PhiHorizon - AI Trading Research Framework
 
 ---
 
@@ -126,3 +126,4 @@ Serious inquiries only. NDA available.
 2. **Escrow required** - Không transfer code trước khi nhận đủ tiền
 3. **Due diligence welcome** - Sẵn sàng demo và answer questions
 4. **Timeline:** Best if closed within 2-4 weeks
+

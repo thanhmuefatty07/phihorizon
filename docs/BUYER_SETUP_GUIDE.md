@@ -1,8 +1,8 @@
-# Supreme System V5 - Buyer Setup Guide
+# PhiHorizon - Buyer Setup Guide
 
 ## 🎉 Welcome!
 
-You've acquired **Supreme System V5**, an AI-powered trading research framework featuring:
+You've acquired **PhiHorizon**, an AI-powered trading research framework featuring:
 
 - **Walk-Forward Optimization** - Robust backtesting with overfitting prevention
 - **XGBoost ML Model** - 63% accuracy on BTC-USD (validated on hold-out)
@@ -35,7 +35,7 @@ print('✅ Installation successful!')
 
 ### Step 3: Run Training (on Kaggle/Colab)
 
-1. Upload `colab/supreme_v5_complete_training.ipynb` to Kaggle
+1. Upload `colab/phihorizon_complete_training.ipynb` to Kaggle
 2. Enable GPU accelerator (optional)
 3. Run all cells
 4. Download `benchmark_report.json`
@@ -123,3 +123,4 @@ For technical questions, review the code documentation or reach out to the selle
 
 **Last Updated:** December 22, 2025  
 **Version:** 5.0.0 Clean
+

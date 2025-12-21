@@ -1,4 +1,4 @@
-# Supreme System V5 - 5-Slide Pitch Deck
+# PhiHorizon - 5-Slide Pitch Deck
 
 **Target Audience:** Technical traders, developers, fintech entrepreneurs seeking algorithmic trading foundation
 
@@ -47,7 +47,7 @@
 
 ## SLIDE 2: OUR SOLUTION - HONEST TRADING PROTOTYPE
 
-### **Supreme System V5: Real Trading Foundation**
+### **PhiHorizon: Real Trading Foundation**
 
 **🎯 What We Built (Verified & Working):**
 
@@ -237,3 +237,4 @@ Risk: Minimal (production-grade system)
 
 **Contact:** [your contact information]
 **Website:** [project repository URL]
+

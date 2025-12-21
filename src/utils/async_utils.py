@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Supreme System V5 - Async Utilities
+PhiHorizon - Async Utilities
 
 Async helper functions and utilities for concurrent operations.
 """
@@ -302,3 +302,4 @@ async def run_with_deadline(coroutine: Coroutine[Any, Any, T], deadline: float) 
     timeout = max(0, deadline - current_time)
 
     return await asyncio.wait_for(coroutine, timeout=timeout)
+

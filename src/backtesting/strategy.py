@@ -1,5 +1,5 @@
 """
-Backtesting Strategy for Supreme System V5.
+Backtesting Strategy for PhiHorizon.
 
 Trading signals for BACKTESTING only (not real-time).
 Uses historical data simulation.
@@ -190,3 +190,4 @@ class BacktestingStrategy:
             return f"RSI overbought ({rsi:.1f}) + price below SMA20 ({price:.2f} < {sma:.2f})"
         else:
             return f"Neutral conditions (RSI: {rsi:.1f})"
+

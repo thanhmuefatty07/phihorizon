@@ -1,5 +1,5 @@
 # ============================================================================
-# Supreme System V5 - Core Dependencies (Minimal)
+# PhiHorizon - Core Dependencies (Minimal)
 # Updated: Dec 22, 2025
 # ============================================================================
 
@@ -37,3 +37,4 @@ pydantic>=2.6.0
 tenacity>=8.2.0
 structlog>=24.1.0
 orjson>=3.9.0
+

@@ -1,5 +1,5 @@
 """
-Core functionality tests for Supreme System V5.
+Core functionality tests for PhiHorizon.
 
 These tests verify that the main components work correctly.
 """
@@ -62,3 +62,4 @@ class TestBaseStrategy:
         signals = strategy.generate_signals(sample_ohlcv_data)
         
         assert isinstance(signals, list)
+

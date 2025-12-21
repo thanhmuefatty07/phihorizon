@@ -1,5 +1,5 @@
 """
-Vectorized Operations for Supreme System V5
+Vectorized Operations for PhiHorizon
 
 High-performance, vectorized implementations of trading calculations.
 Replaces slow iterative operations with NumPy/Pandas vectorized functions.
@@ -810,3 +810,4 @@ if __name__ == "__main__":
     # Run benchmark
     results = benchmark_vectorized_vs_iterative()
     logger.info("Vectorized operations benchmark complete!")
+

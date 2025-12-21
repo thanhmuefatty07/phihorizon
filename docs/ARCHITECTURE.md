@@ -1,8 +1,8 @@
-# Supreme System V5 - Architecture Overview
+# PhiHorizon - Architecture Overview
 
 ## System Architecture
 
-Supreme System V5 is a production-grade algorithmic trading system designed for ETH-USDT scalping operations. The system follows enterprise-grade architectural patterns with comprehensive risk management, real-time monitoring, and automated execution capabilities.
+PhiHorizon is a production-grade algorithmic trading system designed for ETH-USDT scalping operations. The system follows enterprise-grade architectural patterns with comprehensive risk management, real-time monitoring, and automated execution capabilities.
 
 ## Core Components
 
@@ -241,3 +241,4 @@ Execution → Monitoring → Analytics
 - Machine learning integration
 - Predictive modeling
 - Risk factor analysis
+

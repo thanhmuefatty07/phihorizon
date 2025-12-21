@@ -9,7 +9,7 @@ Production-ready Python framework for crypto price prediction with validated ML 
 ## DESCRIPTION
 
 ### What is it?
-Supreme System V5 is an AI trading research framework built in Python. It combines machine learning (XGBoost) with walk-forward backtesting and unique "consciousness" metrics based on Information Theory.
+PhiHorizon is an AI trading research framework built in Python. It combines machine learning (XGBoost) with walk-forward backtesting and unique "consciousness" metrics based on Information Theory.
 
 ### Key Metrics (Validated on Kaggle):
 - XGBoost Accuracy: 63.31%
@@ -61,3 +61,4 @@ Moving to other projects
 - benchmark_report.json available for review
 - Kaggle notebook public for verification
 - Live demo available on request
+

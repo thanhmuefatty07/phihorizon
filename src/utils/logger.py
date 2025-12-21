@@ -1,5 +1,5 @@
 """
-Comprehensive logging configuration for Supreme System V5.
+Comprehensive logging configuration for PhiHorizon.
 
 Provides structured logging with file rotation, console output,
 and configurable log levels for production-grade error handling.
@@ -242,3 +242,4 @@ def create_performance_logger(name: str = "performance") -> logging.Logger:
         logger.propagate = False
 
     return logger
+

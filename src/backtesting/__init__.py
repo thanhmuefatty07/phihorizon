@@ -1,5 +1,5 @@
 """
-Supreme System V5 - Backtesting Module
+PhiHorizon - Backtesting Module
 
 Advanced backtesting framework with walk-forward optimization.
 """
@@ -21,3 +21,4 @@ __all__ = [
     "OptimizationResult",
     "optimize_strategy_walk_forward",
 ]
+

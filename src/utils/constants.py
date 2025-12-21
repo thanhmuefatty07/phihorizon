@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Supreme System V5 - Constants and Configuration
+PhiHorizon - Constants and Configuration
 
 Shared constants, default configurations, and system-wide settings.
 """
@@ -272,3 +272,4 @@ __all__ = [
     "CIRCUIT_BREAKER_CONFIG",
     "HEALTH_CHECK_CONFIG",
 ]
+

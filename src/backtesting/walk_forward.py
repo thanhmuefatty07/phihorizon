@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Supreme System V5 - Walk-Forward Optimization Framework
+PhiHorizon - Walk-Forward Optimization Framework
 
 Advanced walk-forward optimization with Bayesian optimization, out-of-sample validation,
 and comprehensive overfitting prevention techniques.
@@ -880,3 +880,4 @@ def optimize_strategy_walk_forward(
     """
     optimizer = AdvancedWalkForwardOptimizer(config)
     return optimizer.optimize_strategy(strategy_class, data, param_ranges)
+
