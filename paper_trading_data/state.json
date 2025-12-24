@@ -1,0 +1,16 @@
+{
+  "balance": 100.0,
+  "position": 0.0,
+  "entry_price": 0.0,
+  "highest_price": 0.0,
+  "total_trades": 0,
+  "winning_trades": 0,
+  "total_pnl": 0.0,
+  "total_fees": 0.0,
+  "total_slippage": 0.0,
+  "max_drawdown": 0.0,
+  "peak_balance": 100.0,
+  "last_check": "2025-12-24T23:09:45.695376+00:00",
+  "current_date": "2025-12-24",
+  "cycle_count": 1
+}

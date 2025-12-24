@@ -1,0 +1,21 @@
+# PhiHorizon Railway Paper Trading Bot
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy requirements and install
+COPY requirements.railway.txt .
+RUN pip install --no-cache-dir -r requirements.railway.txt
+
+# Copy bot script
+COPY scripts/railway_paper_bot.py scripts/
+
+# Create data directory (will be overridden by Volume)
+RUN mkdir -p /data
+
+# Set environment
+ENV PYTHONUNBUFFERED=1
+ENV DATA_DIR=/data
+
+# Run bot
+CMD ["python", "scripts/railway_paper_bot.py"]

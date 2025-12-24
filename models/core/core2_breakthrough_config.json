@@ -1,0 +1,15 @@
+{
+  "crypto_model": "ElKulako/cryptobert",
+  "fin_model": "ProsusAI/finbert",
+  "ensemble_weights": {
+    "crypto_weight": 0.699999988079071,
+    "fin_weight": 0.30000001192092896
+  },
+  "temperature": 1.5,
+  "label_names": [
+    "Bearish",
+    "Neutral",
+    "Bullish"
+  ],
+  "tier": "Breakthrough"
+}

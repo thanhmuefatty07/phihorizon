@@ -1,0 +1,12 @@
+{
+  "date": "2025-12-24",
+  "balance": 100.0,
+  "total_pnl": 0.0,
+  "total_trades": 0,
+  "winning_trades": 0,
+  "win_rate": 0,
+  "total_fees": 0.0,
+  "total_slippage": 0.0,
+  "max_drawdown": 0.0,
+  "peak_balance": 100.0
+}

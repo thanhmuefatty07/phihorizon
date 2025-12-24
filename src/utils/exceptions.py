@@ -109,6 +109,12 @@ class ValidationError(SupremeSystemError):
     pass
 
 
+class DataValidationError(ValidationError):
+    """Raised when data validation fails - alias for backward compatibility."""
+
+    pass
+
+
 class TradingError(SupremeSystemError):
     """Raised when trading operations fail."""
 
@@ -234,6 +240,7 @@ EXCEPTION_MAPPING = {
     "configuration": ConfigurationError,
     "data": DataError,
     "validation": ValidationError,
+    "data_validation": DataValidationError,
     "trading": TradingError,
     "risk": RiskError,
     "network": NetworkError,

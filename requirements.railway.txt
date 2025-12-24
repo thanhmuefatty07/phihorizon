@@ -1,0 +1,4 @@
+# PhiHorizon Railway Paper Trading
+# Minimal requirements for Railway deployment
+
+requests>=2.28.0

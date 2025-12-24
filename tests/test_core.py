@@ -38,7 +38,7 @@ class TestPhiCalculator:
         from src.consciousness.metrics import PhiCalculator
         
         calculator = PhiCalculator()
-        phi = calculator.calculate(sample_ohlcv_data)
+        phi = calculator.calculate_phi(sample_ohlcv_data)
         
         # Phi should be a valid float
         assert isinstance(phi, float)
